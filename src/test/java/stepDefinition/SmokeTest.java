@@ -10,6 +10,7 @@ import cucumber.api.java.en.When;
 
 public class SmokeTest 
 {
+	//2nd commit by eclipse
 	WebDriver driver;
 	@Given("^Open firefox and start application$")
 	public void open_firefox_and_start_application() throws Throwable {
@@ -17,6 +18,7 @@ public class SmokeTest
 		driver=new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.get("http://localhost:81/");
+		System.out.println("Browser launched, commit2");
 	   
 	}
 
