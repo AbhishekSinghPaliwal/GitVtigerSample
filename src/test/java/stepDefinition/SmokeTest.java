@@ -17,6 +17,7 @@ public class SmokeTest
 	//5th commit by eclipse for SmokeTest file
 	//6th commit by eclipse for SmokeTest file
 	//7th commit by eclipse for SmokeTest file
+	//8th commit by eclipse for SmokeTest file
 	WebDriver driver;
 	@Given("^Open firefox and start application$")
 	public void open_firefox_and_start_application() throws Throwable {
