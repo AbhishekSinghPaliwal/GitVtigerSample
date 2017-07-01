@@ -22,6 +22,7 @@ public class SmokeTest
 	//10th commit by git bash for SmokeTest file
 	//11th commit by git bash for SmokeTest file
 	//12th commit by git bash for SmokeTest file
+	//13th commit by git eclipse for SmokeTest file
 	WebDriver driver;
 	@Given("^Open firefox and start application$")
 	public void open_firefox_and_start_application() throws Throwable {
